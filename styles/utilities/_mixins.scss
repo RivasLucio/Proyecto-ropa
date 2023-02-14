@@ -1,0 +1,89 @@
+@mixin card1 {
+    background: url(../../img/remera2.jpeg) no-repeat center center/cover;
+    background-size: 420px;
+    transition: 0.8s;
+    &:hover {
+        background-size: 500px
+    }
+}
+@mixin card2 {
+    background: url(../../img/accesorios.jpg)  no-repeat center center/cover;
+    background-size: 420px;
+    transition: 0.8s;
+    &:hover {
+        background-size: 500px
+    }
+
+}
+@mixin card3{
+    background: url(../../img/pant.jpg) no-repeat center center/cover;
+    background-size: 420px;
+    transition: 0.8s;
+    &:hover {
+        background-size: 500px
+    }
+
+}
+@mixin card4 {
+    background: url(../../img/hoodie.jpg) no-repeat center center/cover;
+    background-size: 640px;
+        transition: 0.8s;
+    &:hover {
+        background-size: 720px
+    }
+
+}
+@mixin card5 {
+    background: url(../../img/shoes.jpeg) no-repeat center center/cover;
+    background-size: 640px;
+        transition: 0.8s;
+    &:hover {
+        background-size: 720px
+    }
+
+}
+
+
+
+@mixin outfit-target1 {
+    background: url(../../img/outfit1.jpeg)no-repeat center center/cover;
+    grid-row: span 5;
+    grid-column: span 2;
+    
+}
+@mixin outfit-target2 {
+    background: url(../../img/outfit2.jpeg) no-repeat center center/cover;
+    grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target3 {
+    background: url(../../img/outfit3.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target4 {
+    background: url(../../img/outfit4.jpeg) no-repeat center center/cover;
+    grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target5 {
+    background: url(../../img/outfit5.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target6 {
+    background: url(../../img/outfit6.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
+@mixin outfit-target7 {
+    background: url(../../img/outfit7.jpeg) no-repeat center center/cover;
+        grid-row: span 5;
+    grid-column: span 2;
+
+}
